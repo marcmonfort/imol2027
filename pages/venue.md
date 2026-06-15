@@ -15,21 +15,28 @@ title: Venue
 ## Symposium Venue
 
 **Dipoli, Aalto University**  
-Main venue for IMOL 2027
+<!-- Main venue for IMOL 2027 -->
+Lumituuli auditorium, Dipoli, Otakaari 24, Aalto University, Espoo, Finland
+
 <div class="venue-wrap" markdown="1">
 
-<img class="venue-img" src="/assets/img/dipoli_aalto.jpg" alt="Dipoli building, Aalto University" onerror="this.style.display='none'">
 
 <div class="address-block">
-Aalto University<br>
-School of Science<br>
-Otakaari 1<br>
-02150 Espoo, Finland
+  <!-- Aalto University<br>
+  School of Science<br>
+  Otakaari 1<br>
+  02150 Espoo, Finland -->
 </div>
 
 <div>
   <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2151.597954267755!2d24.830766698147578!3d60.18559581454052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468df525ed83e8b1%3A0xae019d711d269d25!2sDipoli!5e1!3m2!1sen!2sfi!4v1781529547711!5m2!1sen!2sfi" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
+
+<br>
+
+<img class="venue-img" src="/assets/img/dipoli.jpg" alt="Dipoli building, Aalto University" onerror="this.style.display='none'">
+
+
 
 ### Getting to Venue
 
