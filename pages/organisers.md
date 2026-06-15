@@ -87,7 +87,7 @@ class='speaker-affiliation'> University of Hertfordshire </p>
           </div>
         </div>
         <div class="col-sm">
-          <img class="organiser-img" src='/assets/img/Karen.jpg'>
+          <img class="organiser-img" src='/assets/img/Karen.jpeg'>
           <div class="organiser-name" style="text-align: center;"> Karen Archer <br> <p class='speaker-affiliation'> University of Hertfordshire</p>
           <p class='organiser-role'>Local Chair</p>
           </div>
