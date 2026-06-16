@@ -213,3 +213,41 @@ tr:nth-child(n+1), tr:nth-child(n+2) {
   font-family: "Merriweather", Georgia, "Times New Roman", serif;
   letter-spacing: 0.2px;
 }
+
+
+
+/* Container for the logos */
+.nav-logo-wrapper {
+  display: flex;
+  flex-wrap: nowrap;       /* Forces logos to stay on a single line */
+  align-items: center;
+  max-width: 75%;          /* Leaves 25% of the screen for the hamburger menu button on mobile */
+}
+
+/* Base styles for the anchor tags */
+.nav-logo-wrapper .navbar-brand {
+  min-width: 0;            /* CRITICAL: Allows flex items to shrink below their natural width */
+  margin-right: 15px;      /* Spacing between the logos */
+  padding: 0;
+}
+
+/* Base styles for the images to shrink properly */
+.nav-logo-wrapper img {
+  width: 100%;
+  height: auto;
+  max-height: 50px;        /* Prevents logos from being too tall on desktop */
+  object-fit: contain;     /* Keeps the logos from distorting when shrinking */
+}
+
+/* Control the maximum relative sizes of the logos on larger screens */
+/* .imol-logo  { max-width: 150px; }
+.uh-logo    { max-width: 140px; }
+.hiit-logo  { max-width: 110px; }
+.ellis-logo { max-width: 200px; } */
+
+/* Optional: reduce the gap between logos on very small screens */
+@media (max-width: 576px) {
+  .nav-logo-wrapper .navbar-brand {
+    margin-right: 8px;
+  }
+}
