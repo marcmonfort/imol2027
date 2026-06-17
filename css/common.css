@@ -246,8 +246,19 @@ tr:nth-child(n+1), tr:nth-child(n+2) {
 .ellis-logo { max-width: 200px; } */
 
 /* Optional: reduce the gap between logos on very small screens */
-@media (max-width: 576px) {
+@media (max-width: 1145px) {
+  /* Give the logos more room, leaving just enough for the hamburger menu */
+  .nav-logo-wrapper {
+    max-width: calc(100% - 65px); 
+  }
+  
+  /* Reduce margins between logos */
   .nav-logo-wrapper .navbar-brand {
-    margin-right: 8px;
+    margin-right: 5px;
+  }
+  
+  /* Remove the margin on the last logo so it doesn't waste space */
+  .nav-logo-wrapper .navbar-brand:last-child {
+    margin-right: 0;
   }
 }
